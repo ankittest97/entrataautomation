@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 		format= {"pretty","html:test-outout", "json:report_json/cucumber.json", "junit:report_xml/cucumber.xml"},
 		dryRun = false,
 		//monochrome = true,
-		
+		//strict = true
 		
 		tags = {"@Regression_TC_03"}
 		)
