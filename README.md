@@ -1,4 +1,3 @@
-# entrataautomation
 # Selenium-Cucumber-Java
 
 This repository contains a collection of sample projects and libraries that demonstrate how to use `selenium-cucumber-java`, a BDD (Behavior-Driven Development) framework with Cucumber (v3.0.0) and Java. The projects showcase automation script development.
@@ -31,17 +30,3 @@ Ensure the following are installed and properly configured:
   - **TestBase:** Contains Browser Initialization.
   - **Generic class:** Used to make use of reusable code.
 
-Wired browser and that the class path is correctly configured)
-
-FRAMEWORK ARCHITECTURE:
-
-src/main/java/features : contains all feature files.
-src/main/java/stepDefinition : contains all stepDefinition file corresponding to feature defined.
-src/main/java/TestRunner: Executes cucumber feature file and co-ordinates with step definition.
-src/main/java/pageobjects: contains pageobject model classes where locators are defined and contains a class responsible for creating objects.
-src/main/java/Resources: contains chromedriver.exe file.
-src/main/java/utils: contains java classes where methods are defined to be shared , TestBase - contains Browser Initialization , Generic class- used to make use of reusable code.
-
-
-TestExecution
-Run as Junit Test
