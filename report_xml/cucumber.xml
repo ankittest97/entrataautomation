@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.220455">
+<testcase classname="ContactCredentials" name="Validate whether user is able to Register in base Camp page" time="35.220455">
+<system-out><![CDATA[Given User is on Application Home Page "Regression_TC_03"...................passed
+Then user clicks on Sign In button "Regression_TC_03".......................passed
+Then user clicks on Property Manager LoginButton "Regression_TC_03".........passed
+Then user enters username and password "Regression_TC_03" "standard_user" "standard".passed
+]]></system-out>
+</testcase>
+</testsuite>
