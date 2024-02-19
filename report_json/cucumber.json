@@ -1,0 +1,122 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 45,
+        "name": "Validate whether user is able to Register in base Camp page",
+        "description": "",
+        "id": "contactcredentials;validate-whether-user-is-able-to-register-in-base-camp-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25804327501,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on Application Home Page \"Regression_TC_03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Regression_TC_03",
+                  "offset": 34
+                }
+              ],
+              "location": "ContactCredentialsStepDefinition.user_is_on_Application_Home_Page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5266819100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks on Sign In button \"Regression_TC_03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Regression_TC_03",
+                  "offset": 31
+                }
+              ],
+              "location": "ContactCredentialsStepDefinition.user_clicks_on_Sign_In_button(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3303185600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks on Property Manager LoginButton \"Regression_TC_03\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Regression_TC_03",
+                  "offset": 45
+                }
+              ],
+              "location": "ContactCredentialsStepDefinition.user_clicks_on_Property_Manager_LoginButton(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 846122400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enters username and password \"Regression_TC_03\" \"standard_user\" \"standard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Regression_TC_03",
+                  "offset": 35
+                },
+                {
+                  "val": "standard_user",
+                  "offset": 54
+                },
+                {
+                  "val": "standard",
+                  "offset": 70
+                }
+              ],
+              "location": "ContactCredentialsStepDefinition.user_enters_username_and_password(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Regression_TC_03"
+          }
+        ]
+      }
+    ],
+    "name": "ContactCredentials",
+    "description": "",
+    "id": "contactcredentials",
+    "keyword": "Feature",
+    "uri": "ContactCredentials.feature"
+  }
+]
