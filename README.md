@@ -1,29 +1,37 @@
 # entrataautomation
-entrata sutomation bdd cucumber framework
+# Selenium-Cucumber-Java
 
-Selenium-Cucumber-Java
-This repository contains a collection of sample projects and libraries that demonstrate how to use selenium-cucumber-java, a BDD (Behavior-Driven Development) framework with Cucumber (v 3.0.0) and Java. 
-The projects showcase automation script development
+This repository contains a collection of sample projects and libraries that demonstrate how to use `selenium-cucumber-java`, a BDD (Behavior-Driven Development) framework with Cucumber (v3.0.0) and Java. The projects showcase automation script development.
 
-This project showcases  a BDD approach for automated Testing using Cucumber,Selenium and Java
+## Features:
 
-##Features:
+- **Cucumber:** Write feature files using Gherkin syntax.
+- **Selenium:** Implement web automation using Selenium WebDriver.
+- **Java:** Leverage the power of Java for implementing step definitions and supporting code.
+- **Maven:** Use Maven for project build and dependency management.
 
-** Cucumber: Write feature file using Gherkin syntax.
-**Selenium: Implement web automation using selenium web Driver.
-** Java: Leverage the power of Java for implementing step Definitions and supporting code.
-**Maven: Use maven for project build and dependency management.
+## Installation & Prerequisites:
 
+Ensure the following are installed and properly configured:
 
-Installation & Prerequisites
+- **JDK:** Ensure that the Java classpath is set up correctly.
+- **Maven:** Ensure that the classpath is set up correctly.
+- **Eclipse IDE:** Required for development.
+- **Eclipse Plugins:** Maven, Cucumber.
+- **Browser driver:** Ensure that you have the appropriate browser driver for your desired browser, and the classpath is correctly configured.
 
-JDK  (Ensure that the Java class path is properly set)
-Maven (Ensure that the class path is properly set)
-Eclipse IDE
-Required Eclipse Plugins:
-Maven
-Cucumber
-Browser driver (Ensure that you have the appropriate browser driver for your desired browser and that the class path is correctly configured)
+## Framework Architecture:
+
+- **src/main/java/features:** Contains all feature files.
+- **src/main/java/stepDefinition:** Contains all step definition files corresponding to the defined features.
+- **src/main/java/TestRunner:** Executes Cucumber feature files and coordinates with step definitions.
+- **src/main/java/pageobjects:** Contains Page Object Model (POM) classes where locators are defined and a class responsible for creating objects.
+- **src/main/java/Resources:** Contains `chromedriver.exe` file.
+- **src/main/java/utils:** Contains Java classes where methods are defined to be shared.
+  - **TestBase:** Contains Browser Initialization.
+  - **Generic class:** Used to make use of reusable code.
+
+Wired browser and that the class path is correctly configured)
 
 FRAMEWORK ARCHITECTURE:
 
