@@ -30,3 +30,6 @@ Ensure the following are installed and properly configured:
   - **TestBase:** Contains Browser Initialization.
   - **Generic class:** Used to make use of reusable code.
 
+
+## TestExecution:
+ - **Run as Junit Test**
