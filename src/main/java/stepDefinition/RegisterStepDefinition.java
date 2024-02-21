@@ -20,7 +20,6 @@ import utils.TestContextSetup;
 
 public class RegisterStepDefinition {
 
-	//public WebDriver driver;
 	
 	TestContextSetup testContextSetup;
 	PageObjectManager pageObjectManager;
@@ -46,7 +45,8 @@ public class RegisterStepDefinition {
 		
 			testContextSetup.genericUtils.SwitchWindowToChild();
 			
-		String actualTitle = testContextSetup.driver.getTitle();
+			RegisterPagepom registerPagepom = testContextSetup.pageObjectManager.getRegisterPagepom();
+			String actualTitle = registerPagepom.actuallTitle();
 	    String expectedTitle = "Base Camp 2024 | Entrata";
 	    Assert.assertEquals(expectedTitle, actualTitle);
 	}
@@ -54,6 +54,7 @@ public class RegisterStepDefinition {
 	@Then("^user clicks on Register now icon \"([^\"]*)\"$")
 	public void user_clicks_on_Register_now_icon(String arg1)  {
 	   
+		testContextSetup.genericUtils.waitForPageLoad();
 		RegisterPagepom registerPagepom = testContextSetup.pageObjectManager.getRegisterPagepom();
 		registerPagepom.RegisterNowBtn();
 	

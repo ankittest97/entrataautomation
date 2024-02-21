@@ -14,7 +14,7 @@ public class RegisterPagepom {
 	
 	
 	By baseCampIcon = By.xpath("//*[text()='Base Camp']");
-	By registerNowBtn = By.xpath("//*[@class='text-block-18']");
+	By registerNowBtn = By.xpath("//*[text()='Register Now']");
 	By FirstName = By.xpath("//input[@aria-label='First Name']");
 	By LastName = By.xpath("//input[@aria-label='Last Name']");
 	By Company = By.xpath("//input[@aria-label='Company']");
@@ -62,6 +62,11 @@ public class RegisterPagepom {
 	public void Mobile(String mobile)
 	{
 		driver.findElement(Mobile).sendKeys(mobile);
+	}
+	
+	public String actuallTitle()
+	{
+		return driver.getTitle();
 	}
 
 

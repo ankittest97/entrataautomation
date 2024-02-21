@@ -125,7 +125,7 @@ formatter.match({
   "location": "ContactCredentialsStepDefinition.user_is_on_Application_Home_Page(String)"
 });
 formatter.result({
-  "duration": 25804327501,
+  "duration": 15908989000,
   "status": "passed"
 });
 formatter.match({
@@ -138,7 +138,7 @@ formatter.match({
   "location": "ContactCredentialsStepDefinition.user_clicks_on_Sign_In_button(String)"
 });
 formatter.result({
-  "duration": 5266819100,
+  "duration": 17473260800,
   "status": "passed"
 });
 formatter.match({
@@ -151,7 +151,7 @@ formatter.match({
   "location": "ContactCredentialsStepDefinition.user_clicks_on_Property_Manager_LoginButton(String)"
 });
 formatter.result({
-  "duration": 3303185600,
+  "duration": 2327296800,
   "status": "passed"
 });
 formatter.match({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "ContactCredentialsStepDefinition.user_enters_username_and_password(String,String,String)"
 });
 formatter.result({
-  "duration": 846122400,
+  "duration": 1212722300,
   "status": "passed"
 });
 });
